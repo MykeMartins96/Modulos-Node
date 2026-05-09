@@ -1,6 +1,7 @@
 <h1>📦 Cadastro de Usuários com Node.js + Banco de Dados</h1>
 
 <h2>Este projeto é uma aplicação backend desenvolvida para gerenciamento de usuários, permitindo cadastrar, listar, atualizar e deletar usuários armazenados em banco de dados.
+  
 A aplicação utiliza Node.js com Express para criação da API REST e MongoDB para persistência dos dados.</h2>
 
 <br>
