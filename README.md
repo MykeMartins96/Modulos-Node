@@ -1,35 +1,65 @@
-<h1>📋 Cadastro de Usuários com Node.js + Banco de Dados<h1/>
+<h1>📦 Cadastro de Usuários com Node.js + Banco de Dados</h1>
 
-<h2>Este projeto é uma aplicação **backend** simples para gerenciamento de usuários.  
-Permite **cadastrar, listar, atualizar e deletar** usuários, armazenando **nome, email e idade** em um banco de dados.<h2/>
-
----
-
-<h1>🚀 Tecnologias Utilizadas:<h1/>
-
-<h1>🔹 Backend<h1/>
-  
-- [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-- [![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-- [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
-- [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-- [![CORS](https://img.shields.io/badge/CORS-005571?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
-- [![Body Parser](https://img.shields.io/badge/Body--Parser-000000?style=for-the-badge)](https://www.npmjs.com/package/body-parser)
+<h2>Este projeto é uma aplicação backend desenvolvida para gerenciamento de usuários, permitindo cadastrar, listar, atualizar e deletar usuários armazenados em banco de dados.
+A aplicação utiliza Node.js com Express para criação da API REST e MongoDB para persistência dos dados.</h2>
 
 <br>
-⚙️ Funcionalidades:
 
-    
- <h2>- ✅ **GET /users** → Lista todos os usuários  
+<h1>🚀 Tecnologias Utilizadas</h1>
+<h2>
+🔹Backend
   <br>
-- ✅ **POST /users** → Cadastra um novo usuário (`name`, `email`, `age`)  
   <br>
-- ✅ **PUT /users/:id** → Atualiza os dados de um usuário existente 
+- Node.js
   <br>
-- ✅ **DELETE /users/:id** → Remove um usuário do banco de dados <h2/>
+- Express
+  <br>
+- Prisma
+  <br>
+- MongoDB
+  <br>
+- CORS
+  <br>
+- Body Parser</h2>
+
 <br>
+
+<h1>⚙️ Funcionalidades</h1>
+
+<h2>- ✅ GET `/users` → Lista todos os usuários
+  <br>
+- ✅ POST `/users` → Cadastra um novo usuário
+  <br>
+- ✅ PUT `/users/:id` → Atualiza um usuário existente
+  <br>
+- ✅ DELETE `/users/:id` → Remove um usuário do banco de dados</h2>
+
+<br>
+
+<h1>🧠 Aprendizados</h1>
+
+<h2>Neste projeto pratiquei:
+  <br>
+  <br>
+- Criação de API REST
+  <br>
+- Rotas com Express
+  <br>
+- Integração com banco de dados
+  <br>
+- Operações CRUD
+  <br>
+- Manipulação de requisições HTTP
+  <br>
+- Uso do Prisma ORM
+  <br>
+- Integração com MongoDB
+  <br>
+- Estruturação de backend com Node.js</h2>
+
+
+
 <h1> 📸 Imagem do Banco de Dados com MongoDB:</h1>
 <img  src= "https://github.com/msm1996/Modulos-Node/blob/main/Captura%20de%20tela%202025-10-02%20225134.png?raw=true">
 
- <a>✍ Feito por [Myke Santana Martins:](https://www.linkedin.com/in/myke-santana-martins)<a/>
 
