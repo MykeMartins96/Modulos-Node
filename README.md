@@ -57,7 +57,7 @@ A aplicação utiliza Node.js com Express para criação da API REST e MongoDB p
   <br>
 - Estruturação de backend com Node.js</h2>
 
-
+<br>
 
 <h1> 📸 Imagem do Projeto por trás do Banco de Dados:</h1>
 <img  src= "https://github.com/msm1996/cadastro-usuarios/raw/main/src/assets/Captura%20de%20tela%202025-10-02%20202622.png?raw=true">
