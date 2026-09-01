@@ -1,66 +1,116 @@
-<h1>📦 Cadastro de Usuários com Node.js + Banco de Dados</h1>
+# 📦 API de Cadastro de Usuários
 
-<h2>Este projeto é uma aplicação backend desenvolvida para gerenciamento de usuários, permitindo cadastrar, listar, atualizar e deletar usuários armazenados em banco de dados.
-  
-A aplicação utiliza Node.js com Express para criação da API REST e MongoDB para persistência dos dados.</h2>
+API REST desenvolvida com **Node.js e Express** para gerenciamento de usuários, com persistência de dados utilizando **MongoDB** e **Prisma ORM**.
 
-<br>
+O projeto permite cadastrar, consultar, atualizar e remover usuários através de operações CRUD, colocando em prática conceitos fundamentais de desenvolvimento Back-End e integração com banco de dados.
 
-<h1>🚀 Tecnologias Utilizadas</h1>
-<h2>
-🔹Backend
-  <br>
-  <br>
-- Node.js
-  <br>
-- Express
-  <br>
-- Prisma
-  <br>
-- MongoDB
-  <br>
-- CORS
-  <br>
-- Body Parser</h2>
+---
 
-<br>
+## 📸 Preview
 
-<h1>⚙️ Funcionalidades</h1>
+![Cadastro de Usuários](https://github.com/msm1996/cadastro-usuarios/raw/main/src/assets/Captura%20de%20tela%202025-10-02%20202622.png?raw=true)
 
-<h2>- ✅ GET `/users` → Lista todos os usuários
-  <br>
-- ✅ POST `/users` → Cadastra um novo usuário
-  <br>
-- ✅ PUT `/users/:id` → Atualiza um usuário existente
-  <br>
-- ✅ DELETE `/users/:id` → Remove um usuário do banco de dados</h2>
+---
 
-<br>
+## 🚀 Sobre o projeto
 
-<h1>🧠 Aprendizados</h1>
+A **API de Cadastro de Usuários** foi desenvolvida para praticar a criação de um Back-End utilizando Node.js, Express e banco de dados.
 
-<h2>Neste projeto pratiquei:
-  <br>
-  <br>
+A aplicação disponibiliza endpoints responsáveis pelas operações de cadastro, consulta, atualização e exclusão de usuários.
+
+Os dados são persistidos no **MongoDB**, utilizando o **Prisma ORM** para comunicação com o banco de dados.
+
+Este projeto também contribuiu para minha compreensão de como uma aplicação Front-End se comunica com uma API REST e como os dados são processados e armazenados no Back-End.
+
+---
+
+## ✨ Funcionalidades
+
+- 👤 Cadastro de usuários
+- 📋 Listagem de usuários
+- ✏️ Atualização de usuários
+- 🗑️ Exclusão de usuários
+- 💾 Persistência de dados
+- 🔄 Operações CRUD
+- 🌐 Comunicação através de API REST
+
+---
+
+## 🔗 Endpoints da API
+
+| Método | Rota | Função |
+|---|---|---|
+| `GET` | `/users` | Lista os usuários |
+| `POST` | `/users` | Cadastra um novo usuário |
+| `PUT` | `/users/:id` | Atualiza um usuário existente |
+| `DELETE` | `/users/:id` | Remove um usuário |
+
+---
+
+## 🛠 Tecnologias utilizadas
+
+- **Node.js** — ambiente de execução JavaScript no Back-End
+- **Express.js** — criação da API e gerenciamento das rotas
+- **MongoDB** — banco de dados utilizado para persistência
+- **Prisma ORM** — comunicação entre a aplicação e o banco de dados
+- **CORS** — configuração de acesso à API
+- **Body Parser** — processamento dos dados enviados nas requisições
+
+---
+
+## 🧠 O que pratiquei neste projeto
+
+Durante o desenvolvimento deste projeto, pratiquei conceitos importantes de Back-End, como:
+
 - Criação de API REST
-  <br>
-- Rotas com Express
-  <br>
-- Integração com banco de dados
-  <br>
+- Criação e organização de rotas com Express
 - Operações CRUD
-  <br>
-- Manipulação de requisições HTTP
-  <br>
-- Uso do Prisma ORM
-  <br>
-- Integração com MongoDB
-  <br>
-- Estruturação de backend com Node.js</h2>
+- Requisições HTTP
+- Integração com banco de dados
+- Persistência de dados com MongoDB
+- Utilização do Prisma ORM
+- Estruturação de uma aplicação Node.js
+- Comunicação entre Front-End e Back-End
 
-<br>
+---
 
-<h1> 📸 Imagem do Projeto por trás do Banco de Dados:</h1>
-<img  src= "https://github.com/msm1996/cadastro-usuarios/raw/main/src/assets/Captura%20de%20tela%202025-10-02%20202622.png?raw=true">
+## 💻 Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/msm1996/cadastro-usuarios.git
+```
+
+Entre na pasta:
+
+```bash
+cd cadastro-usuarios
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Configure a conexão com o banco de dados no arquivo `.env`.
+
+Depois execute:
+
+```bash
+npm run dev
+```
+
+---
+
+## 👨‍💻 Autor
+
+**Myke Santana Martins**
+
+Desenvolvedor Front-End em formação, com conhecimentos de Back-End para integração de aplicações através de APIs REST.
+
+- GitHub: https://github.com/MykeMartins96
+- LinkedIn: https://www.linkedin.com/in/myke-santana-martins
 
 
